@@ -9,9 +9,21 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
+
 public class ExampleUnitTest {
+
+    @Test
+    public void game_Test() {
+        for (Mora mora : Mora.values()) {
+            System.out.println(mora);
+            System.out.println(mora.ordinal());
+        }
+    }
+
     @Test
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
 }
+
+
