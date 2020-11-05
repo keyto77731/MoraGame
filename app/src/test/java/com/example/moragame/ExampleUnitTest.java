@@ -14,10 +14,10 @@ public class ExampleUnitTest {
 
     @Test
     public void game_Test() {
-        for (Mora mora : Mora.values()) {
-            System.out.println(mora);
-            System.out.println(mora.ordinal());
-        }
+//        for (Mora mora : Mora.values()) {
+//            System.out.println(mora);
+//            System.out.println(mora.ordinal());
+//        }
     }
 
     @Test
